@@ -1,0 +1,5 @@
+{
+  "name": "CSV-Tunnel-Endpoints",
+  "description": "An application to upload a CSV file of network tunnel data and view filtered analysis for Private1, Private2, and Private3 endpoints.",
+  "requestFramePermissions": []
+}
