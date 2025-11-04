@@ -29,9 +29,8 @@ jobs:
           node-version: 20
           cache: 'npm'
       - name: Install dependencies
-        # Use npm ci for faster, more reliable installs in CI environments.
-        # This requires a package-lock.json file to be present in the repository.
-        run: npm ci
+        # Use npm install because package-lock.json is not checked in.
+        run: npm install
       - name: Build
         run: npm run build
       - name: Setup Pages
